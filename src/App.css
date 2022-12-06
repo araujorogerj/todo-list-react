@@ -161,3 +161,23 @@ nav{
   color: royalblue;
   text-transform: capitalize;
 }
+
+.list-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 0px;
+}
+
+i{
+  font-size: 20px;
+  margin-right: 5px;
+  transition: 0.7s;
+}
+
+i:hover{
+  font-size: 30px;
+  margin-right: 5px;
+  transition: 0.7s;
+  cursor: pointer;
+}

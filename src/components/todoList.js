@@ -9,6 +9,9 @@ const TodoList = () =>{
                     <h1>tasks completed</h1>
                     <h1>tasks deleted</h1>
                 </div>
+                <div className="list-icon">
+                <p><i class="fa-solid fa-circle-plus"></i></p>
+                </div>
 
             </div>
             <div className="list-body">
