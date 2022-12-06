@@ -1,6 +1,9 @@
 import React from "react";
+import { useState } from "react";
 
 const TodoList = () =>{
+
+   
     return(
         <div className="list-container">
             <div className="list-header">
@@ -10,7 +13,7 @@ const TodoList = () =>{
                     <h1>tasks deleted</h1>
                 </div>
                 <div className="list-icon">
-                <p><i class="fa-solid fa-circle-plus"></i></p>
+                <button><i class="fa-solid fa-circle-plus"></i></button>
                 </div>
 
             </div>

@@ -104,7 +104,7 @@ nav{
 .list-container{
   margin-top: 150px;
   border: solid;
-  border-color: rgb(197, 146, 51);
+  border-color: rgb(253, 187, 65);
   border-radius: 20px;
   background-color: whitesmoke;
   display: flex;
@@ -123,7 +123,7 @@ nav{
   width: 100%;
   background-color: royalblue;
   border-bottom: solid;
-  border-color: rgb(197, 146, 51);
+  border-color: rgb(253, 187, 65);
   border-radius: 15px 15px 0px 0px;
   border-width: 5px;
   font-size: 8px;
@@ -180,4 +180,11 @@ i:hover{
   margin-right: 5px;
   transition: 0.7s;
   cursor: pointer;
+  color: rgb(197, 146, 51);
+}
+
+.list-icon button{
+  background: none;
+  color: rgb(253, 187, 65);
+  border: none;
 }
