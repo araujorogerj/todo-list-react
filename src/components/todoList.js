@@ -1,8 +1,15 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import AddTask from "./Tasks";
 
-const TodoList = () =>{
 
+const TodoList = () => {
+    const [view, setView] = useState (false);
+
+    const onClick = () =>{
+        setView(true);
+
+    }
    
     return(
         <div className="list-container">
@@ -13,13 +20,13 @@ const TodoList = () =>{
                     <h1>tasks deleted</h1>
                 </div>
                 <div className="list-icon">
-                <button><i class="fa-solid fa-circle-plus"></i></button>
+                <button onClick = {onClick}><i class="fa-solid fa-circle-plus"></i></button>
                 </div>
 
             </div>
             <div className="list-body">
-                <h1>hola</h1>
-
+                {view && <AddTask />}
+              
             </div>
         </div>
     );

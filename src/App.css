@@ -188,3 +188,40 @@ i:hover{
   color: rgb(253, 187, 65);
   border: none;
 }
+
+.task-container{
+  background-color: royalblue;
+  height: 50px;
+  width: 100%;
+  margin-top: 3px;
+}
+
+.task-form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.task-form input{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 90%;
+  height: 45%;
+}
+
+.task-form button{
+  background: none;
+  border: none;
+  color: white;
+  height: 55%;
+  transition: 0.7s;
+}
+
+.task-form button:hover{
+  cursor: pointer;
+  background-color: rgb(55, 89, 190);
+  padding: 5px 3px;
+  transition: 0.7s;
+}
