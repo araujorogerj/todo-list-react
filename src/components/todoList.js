@@ -7,7 +7,7 @@ const TodoList = () => {
     const [view, setView] = useState (false);
 
     const onClick = () =>{
-        setView(true);
+        setView(!view);
 
     }
    

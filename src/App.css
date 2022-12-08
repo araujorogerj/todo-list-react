@@ -160,6 +160,7 @@ nav{
   display: flex;
   color: royalblue;
   text-transform: capitalize;
+  
 }
 
 .list-icon{
@@ -195,6 +196,7 @@ i:hover{
   width: 100%;
   margin-top: 3px;
 }
+
 
 .task-form{
   width: 100%;
